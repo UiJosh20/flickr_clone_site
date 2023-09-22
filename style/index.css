@@ -27,11 +27,34 @@ nav{
     transform: translate(0, -120px);
 }
 .carousel-caption>h1{
-  font-size: 70px !important;
+  font-size: 65px !important;
+  font-family: 'Proxima Nova Condensed', sans-serif !important;
+  font-weight: 800;
 }
-.carousel-caption>p{
-  font-size: 20px !important;
+.carousel-caption>h3{
+  font-size: 28px !important;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: 'Proxima Nova Condensed', sans-serif !important;
+  /* vertical-align: baseline; */
+  text-align: center;
+  padding: 0px 200px !important;
   
+}
+.carousel-caption>button{
+  font-family: 'Proxima Nova Condensed', sans-serif !important;
+  transform: translateY(-25px); 
+}
+footer{
+  background-color: black;
+  padding: 10px 30px !important;
+}
+.tens{
+  padding: 0;
+}
+.tens>a{
+  font-size: 15px;
+  text-decoration:none;
+  font-family: 'Proxima Nova Condensed', sans-serif !important;
+  margin-right: 40px;
 }
