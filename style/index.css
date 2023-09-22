@@ -1,0 +1,37 @@
+.win{
+  width: 750px;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 35px;
+}
+.win2{
+  border: none !important;
+  outline: none;
+  font-size: 13px;
+  height: 35px;
+  background-color: transparent!important;
+  
+}
+
+nav{
+  position: fixed;
+  z-index: 99;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  
+}
+.carousel-inner>.carousel-item{
+  height: 100vh;
+}
+.carousel-caption{
+    transform: translate(0, -120px);
+}
+.carousel-caption>h1{
+  font-size: 70px !important;
+}
+.carousel-caption>p{
+  font-size: 20px !important;
+  text-align: center;
+  font-weight: bold;
+  
+}
