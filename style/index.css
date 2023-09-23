@@ -54,5 +54,14 @@ footer{
   font-size: 15px;
   text-decoration:none;
   font-family: 'Proxima Nova Condensed', sans-serif !important;
-  margin-right: 40px;
+  margin-right: 55px;
+}
+.btn{
+  border: none;
+  font-size: 15px;
+  font-family: 'Proxima Nova Condensed', sans-serif !important;
+}
+
+.logosocials>a{
+  margin-right: 20px;
 }
