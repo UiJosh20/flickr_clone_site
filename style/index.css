@@ -86,7 +86,8 @@ footer{
   font-size: 15px;
   text-decoration:none;
   font-family: 'Proxima Nova Condensed', sans-serif !important;
-  margin-right: 55px;
+  margin-right: 45px;
+  color: #999999 !important;
 }
 .btn{
   border: none;
@@ -96,9 +97,13 @@ footer{
 
 .logosocials>a{
   margin-right: 20px;
+  text-decoration: none;
+  color: #999999;
 }
-
-@media screen and (max-width: 457px) {
+.connect{
+  display: none;
+}
+@media screen and (max-width: 475px) {
   html,body{
     overflow-x: hidden;
   }
@@ -129,5 +134,62 @@ footer{
   .me1{
     margin-right: 120px;
     margin-left: -20px;
+  }
+
+  .tens{
+    list-style-type: none;
+    display: block;
+    /* transform: translate(auto, auto); */
+    margin: 0px !important;
+    padding: 0;
+  }
+  .tens>li{
+    border-bottom: 1px solid rgba(146, 146, 146, 0.5);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .dropdown-toggle{
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .tens>li>a{
+    font-size: 15px;
+    color: #999999 !important;
+    text-decoration:none;
+    font-family: 'Proxima Nova Condensed', sans-serif !important;
+  }
+  footer{
+    background-color: black;
+    padding: 10px, 0;
+  }
+  .logosocials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .connect{
+    display: block;
+  }
+  .logosocials>a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #999999;
+  }
+  .last>a{
+    margin-right: 20px;
+  }
+
+  .carousel-item>img{
+    height: 460px !important;
+  
+  }
+
+  .caro{
+    margin-top: 3000px;
+    font-size: 12px;
   }
 }
