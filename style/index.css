@@ -1,3 +1,20 @@
+html,body{
+  overflow-x: hidden;
+}
+
+.navigate{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.me1{
+  margin-right: 100px;
+}
+.small{
+  display: none;
+}
+
 .win{
   width: 750px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -11,6 +28,14 @@
   background-color: transparent!important;
   
 }
+
+.lastPath{
+  margin-left: 100px;
+}
+.win3{
+  width: 100px;
+}
+
 
 nav{
   position: fixed;
@@ -50,7 +75,14 @@ footer{
   padding: 10px 30px !important;
 }
 
-.tens>a{
+.tens{
+  list-style-type: none;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.tens>li>a{
   font-size: 15px;
   text-decoration:none;
   font-family: 'Proxima Nova Condensed', sans-serif !important;
@@ -64,4 +96,38 @@ footer{
 
 .logosocials>a{
   margin-right: 20px;
+}
+
+@media screen and (max-width: 457px) {
+  html,body{
+    overflow-x: hidden;
+  }
+
+  .win{
+    display: none;
+  }
+
+  .lastPath, .win3{
+    display: none;
+  }
+  .small{
+    display: block;
+    margin-left: 10px;
+  }
+  .small>img{
+    margin-right: 20px;
+  }
+  .small>a>button{
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 2px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .me1{
+    margin-right: 120px;
+    margin-left: -20px;
+  }
 }
