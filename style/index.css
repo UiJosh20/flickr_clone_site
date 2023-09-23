@@ -117,7 +117,7 @@ footer{
   }
   .small{
     display: block;
-    margin-left: 10px;
+    margin-left: -40px;
   }
   .small>img{
     margin-right: 20px;
@@ -184,12 +184,26 @@ footer{
   }
 
   .carousel-item>img{
-    height: 460px !important;
+    height: 100vh !important;
   
   }
 
   .caro{
-    margin-top: 3000px;
-    font-size: 12px;
+    transform: translateY(-200px);
   }
+.caro>h1{
+  display: block;
+  font-size: 45px !important;
+  font-weight: 700;
+  padding: 0;
+
+
+}
+.caro>h3{
+  display: none;
+}
+
+.caro>.btn{
+  height: auto;
+}
 }
