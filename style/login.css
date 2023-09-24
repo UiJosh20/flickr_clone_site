@@ -19,9 +19,68 @@ html, body{
   text-align: center;
   padding: 20px 50px !important;
   width: 400px !important;
-
 }
 .fs{
   font-size: 14px !important;
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+.dip{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px !important;
+}
+.dropdown{
+  margin-right: 150px !important;
+}
+.reds{
+  display: none;
+}
+
+@media screen and (max-width: 475px) {
+  .loginback{
+    background-image: none;
+  }
+  .loginbox{
+    display: none;
+  }
+  .loginconatiner{
+    padding: 20px;
+  }
+
+.reds{
+  display: block;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.reds>.ms-5{
+  margin-left: 80px !important;
+
+}
+.blue{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.dip{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 370px;
+  right: 40px;
+  width: 100%;
+}
+.dropdown{
+  margin-right: 90px !important;
+  align-items: center;
+  justify-content: center;
+}
+
 }
