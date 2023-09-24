@@ -31,3 +31,32 @@ body{
     
   0, 0, 0, 0.5) !important;
 }
+reds{
+  display: none ;
+}
+@media screen and (max-width: 475px) {
+  body{
+    overflow-y: scroll !important;
+  }
+  .loginback{
+    background-image: none;
+  }
+  .loginbox{
+    display: none;
+  }
+  .loginconatiner{
+    padding: 20px;
+  }
+
+  .reds{
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
